@@ -1,35 +1,55 @@
 
 <!-- Contact Start -->
 
-<section id="{{ page.section-type }}" class="container content-section text-center">
-  <div class="row">
-    <div class="col-md-10 col-md-offset-1">
+<h3 id="contact">Contact Me</h3>
 
-      {{ page.content | markdownify }}
+<div id="contactbody">
+  <section>
+    <div class="row">
 
-      {% if site.email %}
-        {% if site.email contains '@' %}
-          {% assign newemail = site.email | split: '@' %}
-            <p>
-            <script>
-              function join_at_email(user, domain){
-              return (user && domain)?(user + "@" + domain):"";
-              }
-              document.write('<a href="mailto:'
-              + join_at_email( "{{ newemail[0] }}", "{{ newemail[1] }}" )
-              + '">'
-              + join_at_email( "{{ newemail[0] }}", "{{ newemail[1] }}" )
-              + '</a>'
-              );
-              </script>
-            </p>
-        {% else %}
-          <p><a href="mailto:{{ site.email }}">{{ site.email }}</a></p>
-        {% endif %}
-      {% endif %}
+    <div class="col-lg-6">
+
+      <p>My Contact Information:</p>
+
+      <p id="manualcontact">Email: armbandit95@gmail.com</p>
+      <p>Number: 859-953-4092</p>
+
+      <blockquote>If you are unable to reach me on my personal number, then please leave a message and/or send me an email and I will get back with you as soon as possible.</blockquote>
 
     </div>
-  </div>
-</section>
+
+
+    <div class="col-lg-6" id="formspreeform">
+
+      <p>Or Reach Me Automatically Through Formspree!</p>
+
+        <form id="contactform" action="//formspree.io/armbandit95@gmail.com" method="POST">
+          <input id="formbox" type="text" name="name" placeholder="Your name" required>
+          <br>
+         
+          <input id="formbox" type="email" name="_replyto" placeholder="Your email or number" required>
+          <br>
+        
+          
+          <textarea id="formboxmessage" name="message" placeholder="Your message" required></textarea>
+          <br>
+
+          <input type="hidden" name="_subject" value="From Portfolio Website" />
+       
+          <input type="text" name="_gotcha" style="display:none" />
+          <br>
+          <button id="btn-shape" class="btn btn-lg btn-primary">Send!</button>
+
+      </form>
+      <script>
+          var contactform =  document.getElementById('contactform');
+          contactform.setAttribute('action', '//formspree.io/' + 'armbandit95' + '@' + 'gmail' + '.' + 'com');
+      </script>
+
+    </div>
+
+    </div>
+  </section>
+</div> 
 
 <!-- Contact End -->

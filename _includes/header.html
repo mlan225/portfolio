@@ -7,13 +7,13 @@
       <div class="row">
           <div class="col-md-10 col-md-offset-1">
             <span class="intro-text">
-              An Aspiring Web Developer, Adrift In a Sea of Digital Labor...
+              "An Aspiring Web Developer, Adrift In a Sea of Digital Labor..."
             </span>
             <!-- creates the space below my profile picture -->
             <h5>&nbsp;</h5>
             <!-- the profile image and where it sends the user to -->
             <a href="#{{ site.pages_list['About'] }}" class="page-scroll">
-              <img class="img-me" src="{{site.baseurl}}{{ site.me-img }}" alt="">
+              <img class="img-me" src="img/marvin.jpg" style="pointer-events: none;">
             </a>
 
             <h5>&nbsp;</h5>
@@ -26,14 +26,49 @@
               </div>
 
               <div id="resume">
-                <button id="btn-shape" type="button" class="btn btn-lg btn-warning" href="#">Resume</button>
+
+                <button class="btn btn-warning btn-lg" id="btn-shape" data-toggle="modal" data-target="#myresume">Resume</button>
+
               </div>
 
             </div>
+
+            <img id="boat" src="img/boat.png">
+
           </div>
         </div>
     </div>
   </div>
+
+
+  <!-- Modal -->
+<div id="myresume" class="modal fade" role="dialog">
+  <div class="myresume modal-dialog modal-lg">
+
+    <!-- Modal content-->
+    <div class="modal-content">
+      <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal">&times;</button>
+        <h4 class="modal-title">My Resume</h4>
+        <a href="img/resume.pdf" download><button type="button" class="btn btn-default">Download!</button></a>
+      </div>
+      <div class="modal-body">
+
+       <img class="thumbnail img-responsive" src="img/resume.png">
+
+      <div class="modal-footer">
+        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+      </div>
+    </div>
+
+  </div>
+</div>
+
+
 </header>
+
+
+
+
 
 <!-- Intro End -->

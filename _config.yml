@@ -1,6 +1,9 @@
 
 # Site settings
 
+
+email: armbandit95@gmail.com
+
 # NB! Set your site's url, otherwise stuff will break :)
 
 url: "https://mlan225.github.io"
@@ -154,9 +157,6 @@ err-404-img: "/img/labtocat.png"
 # GPG on Keybase #
 ##################
 
-keybase-username: johnsmith
-keybase-in-social: True
-keybase-in-footer: True
 
 ################################################################################
 

@@ -246,6 +246,8 @@ and (max-device-width : 1024px)  { #boat{display: none;}}
 	border-left: 3px solid white;
 }
 
+@media screen and (max-width: 1199px) { #formspreeform {border: none; margin-top: 20%;}}
+
 #manualcontact{
 	margin-top: 30%;
 }

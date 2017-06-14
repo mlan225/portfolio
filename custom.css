@@ -1,5 +1,12 @@
 /*linkedin and resume buttons*/
 
+html{
+	height: 100%;
+}
+
+#fixed-height{
+	min-height: 
+}
 
 .underline{
 	text-decoration: underline;
@@ -271,6 +278,11 @@
 @media only screen 
 and (min-device-width : 768px) 
 and (max-device-width : 1024px)  {}
+
+
+/*height media queries*/
+
+
 
 
 

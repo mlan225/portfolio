@@ -172,6 +172,27 @@
     100% {left:20%; transform: rotate(7deg) translateY(0);}
 }
 
+
+/*mobile animation code*/
+@keyframes boatmobile {
+
+    0%   {left:-3%; transform: rotate(7deg) translateY(15%);} 
+
+    16%  {transform: rotate(-4deg) translateY(15%);} 
+    25%  {transform: rotate(6deg) translateY(15%);}
+    
+
+    50%  {left:3%; transform: rotate(-7deg) translateY(15%);}
+
+    65%	 {transform: rotate(4deg) translateY(15%);}
+    85%  {transform: rotate(-6deg) translateY(15%);}
+
+    100% {left:-3%; transform: rotate(7deg) translateY(15%);}
+}
+
+
+
+
 /* The element to apply the animation to */
 #boat {
     animation-name: boat;
@@ -180,22 +201,84 @@
     animation-timing-function: ease-in-out;
 }
 
-@media screen and (max-width: 1199px){
+
+/*mobile width*/
+@media screen and (min-width: 360px){
 	#boat{
-		margin-top: -17px;
+		position: relative;
+	}
+
+		#boat {
+			width: 25%;
+			margin-top: 10%;
+
+		    animation-name: boatmobile;
+		    animation-duration: 10s;
+		    animation-iteration-count: infinite;
+		    animation-timing-function: ease-in-out;
+		}
+}
+
+
+/*computer screen width*/
+@media screen and (min-width: 768px){
+	#boat{
+		margin-top: 23%; 
+		position: absolute;
+		width: 35%; 
+
+		animation-name: boat;
+		animation-duration: 30s;
+		animation-iteration-count: infinite;
+		animation-timing-function: ease-in-out;
 	}
 }
 
-@media screen and (max-width: 991px){
+@media screen and (min-width: 992px){
 	#boat{
-		margin-top: 3%;
+		margin-top: 17%; 
+		position: absolute;
+		width: 35%;
+
+		animation-name: boat;
+		animation-duration: 30s;
+		animation-iteration-count: infinite;
+		animation-timing-function: ease-in-out;
+	}
+}
+
+
+@media screen and (min-width: 1200px){
+	#boat{
+		margin-top: 12%; 
+		position: absolute;
+		width: 35%;
+
+		animation-name: boat;
+		animation-duration: 30s;
+		animation-iteration-count: infinite;
+		animation-timing-function: ease-in-out;
+	}
+}
+
+@media screen and (min-width: 1920px){
+	#boat{
+		margin-top: 13%;
+		position: absolute;
+		width: 35%;
+
+		animation-name: boat;
+		animation-duration: 30s;
+		animation-iteration-count: infinite;
+		animation-timing-function: ease-in-out;
 	}
 }
 
 /*ipad viewing*/
 @media only screen 
 and (min-device-width : 768px) 
-and (max-device-width : 1024px)  { #boat{display: none;}}
+and (max-device-width : 1024px)  {}
+
 
 
 /*contact section*/

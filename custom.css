@@ -213,7 +213,7 @@ html{
 			margin-top: 10%;
 
 		    animation-name: boatmobile;
-		    animation-duration: 9s;
+		    animation-duration: 5s;
 		    animation-iteration-count: infinite;
 		    animation-timing-function: ease-in-out;
 		}

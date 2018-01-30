@@ -108,13 +108,19 @@ html{
 
 #frontend{
 	background-color: rgb(8, 120, 48);
+	border-radius: 40px;
+	height: 10%;
+}
+
+#backend {
+
 }
 
 #data{
 	background-color: rgb(255, 101, 1);
 }
 
-#techsystems{
+#work{
 	background-color: rgb(201, 20, 0);
 }
 

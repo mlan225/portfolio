@@ -108,20 +108,14 @@ html{
 
 #frontend{
 	background-color: rgb(8, 120, 48);
-	border-radius: 40px;
-	height: 10%;
 }
 
 #backend {
-
+ background-color: rgb(221, 0, 0);
 }
 
 #data{
 	background-color: rgb(255, 101, 1);
-}
-
-#work{
-	background-color: rgb(201, 20, 0);
 }
 
 /*modal*/

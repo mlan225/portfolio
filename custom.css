@@ -102,8 +102,6 @@ html{
 	text-shadow: 3px 3px black;
 }
 
-
-
 .progress{
 	margin-bottom: 10%;
 }
@@ -123,6 +121,10 @@ html{
 /*modal*/
 #Languages{
 	margin-top: 5%;
+}
+
+#experience {
+	margin: auto 3%;
 }
 
 .modal-content{

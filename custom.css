@@ -35,53 +35,6 @@ html{
 	border-radius: 25px;
 }
 
-/*projects section*/
-#firstimage{
-	max-width: 20%;
-	border: none;
-	margin-top: 15%;
-	margin-right: 90%;
-	background-color: black;
-}
-
-#image{
-	max-width: 20%;
-	border: none;
-	margin-top: 30%;
-	margin-right: 90%;
-	background-color: black;
-}
-
-#lastimage{
-	max-width: 20%;
-	border: none;
-	margin-top: 30%;
-	margin-right: 90%;
-	background-color: black;
-}
-
-
-/*vertical line*/
-#vertical{
-	margin-left: 10%;
-	border-left: thick solid white;
-	border-left-width: 2px;
-}
-
-#verticalicon{
-	float: left;
-	font-size: 50px;
-}
-
-/*project text*/
-#projecttext{
-	margin-top: -20%;
-	margin-left: 20%;
-}
-
-#projectsubtext{
-	margin-left: 20%;
-}
 
 #skillsbackground{
 	/*put the background image here*/
@@ -111,7 +64,7 @@ html{
 }
 
 #backend {
- background-color: rgb(221, 0, 0);
+ background-color: rgb(29, 118, 186);
 }
 
 #data{

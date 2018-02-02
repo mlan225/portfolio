@@ -71,6 +71,10 @@ html{
 	background-color: rgb(255, 101, 1);
 }
 
+#section {
+	margin-top: 10%;
+}
+
 /*modal*/
 #Languages{
 	margin-top: 5%;
@@ -284,6 +288,27 @@ and (max-device-width : 1024px)  {}
 #aboutmedata{
 	margin-top: 8%;
 	margin-bottom: 3%;
+}
+
+#projectimg {
+	width: 80%;
+	border: none;
+}
+
+#projectTextHeader {
+	font-size: 2em;
+}
+
+#projectButton {
+	border-radius:23px;
+}
+
+#projectsAndWork {
+	margin-top: 40%;
+}
+
+#projectText {
+	font-size: 1em;
 }
 
 #formspreeform{

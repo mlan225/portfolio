@@ -1,12 +1,12 @@
 - title: Home
-  url: '/#home'
+  url: '/portfolio/#home'
 
 - title: Experience
-  url: '/#experience'
+  url: '/portfolio/#experience'
 
 - title: Projects
-  url: '/projects'
+  url: '/portfolio/projects'
 
 - title: About Me
-  url: '/#about-me'
+  url: '/portfolio/#about-me'
   

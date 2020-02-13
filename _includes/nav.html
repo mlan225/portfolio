@@ -14,7 +14,7 @@
                             <nav>
                                 <ul id="navigation">
                                     {% for link in site.data.navigation %}
-                                    <li><a class="active" href="{{ link.url }}">{{ link.title }}</a></li>
+                                    <li><a class="active" data-scroll href="{{ link.url }}">{{ link.title }}</a></li>
                                     {% endfor %}
                                 </ul>
                             </nav>

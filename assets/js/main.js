@@ -18,8 +18,8 @@ $(window).on('scroll', function () {
 
 $(document).ready(function(){
 
-// custom smooth scroll for anchors
-var scroll = new SmoothScroll('a[href*="#"]');
+// custom smooth scroll for anchors. Single targeting not working
+var scroll = new SmoothScroll('a[href*="#home"], a[href*="#experience"], a[href*="#about-me"]');
 
 // mobile_menu
 var menu = $('ul#navigation');

@@ -1,0 +1,12 @@
+- title: Home
+  url: '/#home'
+
+- title: Experience
+  url: '/#experience'
+
+- title: Projects
+  url: '/projects'
+
+- title: About Me
+  url: '/#about-me'
+  

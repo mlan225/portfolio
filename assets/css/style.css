@@ -1468,7 +1468,7 @@ h3 {
   position: absolute;
   bottom: 0;
   left: 0;
-  background-image: url(/assets/img/portraits/portrait-head.png);
+  background-image: url(/portfolio/assets/img/portraits/portrait-head.png);
   width: 724px;
   height: 767px;
   content: '';
@@ -6831,23 +6831,23 @@ h6 {
 }
 
 .poll-buddy {
-  background: url('/assets/img/projects/poll-buddy.png');
+  background: url('/portfolio/assets/img/projects/poll-buddy.png');
 }
 
 .ddr {
-  background: url('/assets/img/projects/ddr.png');
+  background: url('/portfolio/assets/img/projects/ddr.png');
 }
 
 .rural-reviewer {
-  background: url('/assets/img/projects/rural-reviewer.png');
+  background: url('/portfolio/assets/img/projects/rural-reviewer.png');
 }
 
 .coworker-survey {
-  background: url('/assets/img/projects/survey.png');
+  background: url('/portfolio/assets/img/projects/survey.png');
 }
 
 .jekyll-tutorial{
-  background: url('/assets/img/projects/jekyll-tutorial.png');
+  background: url('/portfolio/assets/img/projects/jekyll-tutorial.png');
 }
 
 .portfolio_image_area.projects {

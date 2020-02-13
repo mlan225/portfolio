@@ -11,7 +11,7 @@ permalink: /projects/poll-buddy
       <div class="col-xl-12">
         <div class="bradcam_text text-center">
           <h3>{{ page.title }}</h3>
-          <span class="project-back"><a href="/projects">Return to Projects</a></span>
+          <span class="project-back"><a href="{{'/projects' | relative_url}}">Return to Projects</a></span>
         </div>
       </div>
     </div>
@@ -39,8 +39,8 @@ permalink: /projects/poll-buddy
       </div>
     </div>
     <div class="single-project-images col-sm-12 col-lg-6">
-      <div style="background-image: url('/assets/img/projects/poll-buddy-screenshot-1.png'); background-position: left"></div>
-      <div style="background-image: url('/assets/img/projects/poll-buddy-screenshot-2.png'); background-position: left"></div>
+      <div style="background-image: url('{{ site.baseurl }}/assets/img/projects/poll-buddy-screenshot-1.png'); background-position: left"></div>
+      <div style="background-image: url('{{ site.baseurl }}/assets/img/projects/poll-buddy-screenshot-2.png'); background-position: left"></div>
     </div>
   </div>
 </div>

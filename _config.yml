@@ -1,6 +1,7 @@
 # site data
 name: Marvin Anderson's Portfolio
 url: https://mlan225.github.io
+baseurl: /project-name
 email: mlanderson225@gmail.com
 linkedin: https://www.linkedin.com/in/marvin-anderson/
 github: https://github.com/mlan225

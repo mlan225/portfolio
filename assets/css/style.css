@@ -6850,6 +6850,10 @@ h6 {
   background: url('/portfolio/assets/img/projects/jekyll-tutorial.png');
 }
 
+.mega-note {
+  background: url('/portfolio/assets/img/projects/mega-note-screenshot-1.png');
+}
+
 .portfolio_image_area.projects {
   margin-top: 0;
   padding-top: 75px;

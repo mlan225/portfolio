@@ -1,0 +1,54 @@
+---
+title: WSJXR
+layout: project-single
+permalink: /projects/wsjxr
+---
+
+<!-- bradcam_area  -->
+<div class="bradcam_area bradcam_bg_1">
+  <div class="container">
+    <div class="row">
+      <div class="col-xl-12">
+        <div class="bradcam_text text-center">
+          <h3>{{ page.title }}</h3>
+          <span class="project-back"><a href="{{'/projects' | relative_url}}">Return to Projects</a></span>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+<!-- /bradcam_area  -->
+
+<div class="single-project-area container">
+  <div class="row">
+    <div class="project-text col-sm-12 col-lg-6">
+      <h1 class="single-project-header">The Wall Street Journal Exchange Rates (WSJXR)</h1>
+      <h4>Node.Js | Javascript | Google API | JSON</h4>
+      <hr>
+      <p>
+        This application is a tool to help keep track of the exchange rates presented on the Wallstreet Journal's site.
+        The project was built within the Node.js framework and uses the Google API to record and reflect the JSON data
+        on the WSJ website within an excel sheet. The JSON is received and formatted before sending it to the view using
+        Javascript.
+      </p>
+      <p>
+        On the WSJXR site, there is a link to view both the WSJ page with the original information and one to go
+        straight to the google sheet. Any changes made in the google sheet will be overwritten upon loading the WSJXR
+        site. This allows it to stay up to date and remove any edits previously made from other users that have run
+        queries on the information.
+      </p>
+      <div class="project-text-btn">
+        <a class="boxed-btn3" href="https://fathomless-sea-47213.herokuapp.com/" target="_blank">View Project on
+          Heroku</a>
+      </div>
+    </div>
+    <div class="single-project-images col-sm-12 col-lg-6">
+      <div
+        style="background-image: url('{{ site.baseurl }}/assets/img/projects/wsjxr-screenshot-1.png'); background-position: left">
+      </div>
+      <div
+        style="background-image: url('{{ site.baseurl }}/assets/img/projects/wsjxr-screenshot-2.png'); background-position: left">
+      </div>
+    </div>
+  </div>
+</div>

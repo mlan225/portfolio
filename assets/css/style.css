@@ -6838,8 +6838,8 @@ h6 {
   background: url('/portfolio/assets/img/projects/ddr.png');
 }
 
-.rural-reviewer {
-  background: url('/portfolio/assets/img/projects/rural-reviewer.png');
+.litter {
+  background: url('/portfolio/assets/img/projects/litter-screenshot-1.png');
 }
 
 .coworker-survey {
@@ -6852,6 +6852,10 @@ h6 {
 
 .mega-note {
   background: url('/portfolio/assets/img/projects/mega-note-screenshot-1.png');
+}
+
+.wsjxr {
+  background: url('/portfolio/assets/img/projects/wsjxr-screenshot-1.png');
 }
 
 .portfolio_image_area.projects {

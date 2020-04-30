@@ -6905,6 +6905,10 @@ h6 {
   color: #d465ef;
 }
 
+.bullet-list li {
+  list-style: disc;
+}
+
 @media(max-width: 992px) {
   .portfolio_image_area .single_Portfolio .portfolio_hover {
     -webkit-transform: translateX(0%);
